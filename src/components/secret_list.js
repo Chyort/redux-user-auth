@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => {
+const Secret = props => {
     return (
         <div>
             <h1 className="text-center">Top Secret Chicken Recipe</h1>
@@ -17,5 +17,7 @@ export default props => {
                 <li>Stew</li>
             </ul>
         </div>
-    )
+    );
 }
+
+export default Secret;
